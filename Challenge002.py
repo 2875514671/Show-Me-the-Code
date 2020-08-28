@@ -12,7 +12,6 @@ import re
 @pysnooper.snoop()
 def get_result(url):
     html = (requests.get(url)).text
-    # html = response.text
     data = re.findall("<!--(.*?)-->", html, re.DOTALL)[-1]
     word = "".join(re.findall("[A-Za-z]", data))
     print(word)
