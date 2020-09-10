@@ -19,5 +19,5 @@ def get_result(url):
 
 
 if __name__ == '__main__':
-    url = "http://www.pythonchallenge.com/pc/def/ocr.html"
-    get_result(url)
+    uri = "http://www.pythonchallenge.com/pc/def/ocr.html"
+    get_result(uri)
