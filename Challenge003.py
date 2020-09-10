@@ -4,6 +4,7 @@
 # @File:   Challenge003.py
 # @SoftWare  : Sublime Text3
 """
+http://www.pythonchallenge.com/pc/def/equality.html
 https://www.hackingnote.com/en/python-challenge-solutions/level-3
 
 模式可以描述为[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+。这是模式的细分：
@@ -22,8 +23,8 @@ import re
 
 
 @pysnooper.snoop()
-def get_text(url):
-    html = (requests.get(url)).text
+def get_text(uri):
+    html = (requests.get(uri)).text
     date = re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", html)
     text = "".join(date)
     print(text)
