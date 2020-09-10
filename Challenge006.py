@@ -6,6 +6,7 @@
 """
 http://www.pythonchallenge.com/pc/def/channel.html
 https://www.hackingnote.com/en/python-challenge-solutions/level-6
+https://docs.python.org/zh-cn/3.7/library/zipfile.html
 ZipFile.comment：与ZIP文件关联的注释。
 ZipInfo.comment：单个存档成员的注释。
 """
