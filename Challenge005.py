@@ -3,14 +3,16 @@
 # @Author  : YuSheng
 # @Software: Sublime Text3
 # @FileName : Challenge005.py
-
+"""
+http：//www.pythonchallenge.com/pc/def/peak.html
+https://www.hackingnote.com/en/python-challenge-solutions/level-5
+https://docs.python.org/3.7/library/pickle.html
+"""
 
 from urllib.request import urlopen
-import pysnooper
 import pickle
 
 
-# @pysnooper.snoop()
 def peak(url):
     html = urlopen(url)
     data = pickle.load(html)
@@ -20,5 +22,5 @@ def peak(url):
 
 
 if __name__ == '__main__':
-    url = 'http://www.pythonchallenge.com/pc/def/banner.p'
-    peak(url)
+    uri = 'http://www.pythonchallenge.com/pc/def/banner.p'
+    peak(uri)
