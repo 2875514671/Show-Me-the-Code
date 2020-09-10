@@ -9,6 +9,7 @@ https://www.hackingnote.com/en/python-challenge-solutions/level-0
 38是一个很好的（随机的）示例，它显示了int类型在Python中可以无穷大
 """
 
+
 a = 2 ** 38
 print(a)
 
