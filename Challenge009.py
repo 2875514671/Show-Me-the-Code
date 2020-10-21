@@ -3,7 +3,11 @@
 # @AUTHOR : yusheng
 # @File : Challenge009.py
 # @SoftWore : PyCharm
-
+"""
+https://www.hackingnote.com/en/python-challenge-solutions/level-9
+ImageDraw.Draw.polygon
+https://vimsky.com/examples/usage/python-pil-imagedraw-draw-polygon-method.html
+"""
 from PIL import Image, ImageDraw
 
 first = [146, 399, 163, 403, 170, 393, 169, 391, 166, 386, 170, 381, 170, 371, 170, 355, 169, 346, 167, 335, 170, 329,
