@@ -9,7 +9,7 @@ import pysnooper
 import re
 
 """
-https://www.hackingnote.com/en/python-challenge-solutions/level-9
+https://www.hackingnote.com/en/python-challenge-solutions/level-10
 外观序列：
 a = [1, 11, 21, 1211, 111221,
 https://en.wikipedia.org/wiki/Look-and-say_sequence
